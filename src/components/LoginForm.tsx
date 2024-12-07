@@ -8,9 +8,9 @@ interface LoginFormProps {
 
 export function LoginForm({ onLogin }: LoginFormProps) {
   const [credentials, setCredentials] = useState<SIPCredentials>({
-    username: "u0406432006",
-    password: "Y0vnVRQauW",
-    domain: "sipproxy5.telavox.se",
+    username: "xxx",
+    password: "xxx",
+    domain: "sipproxy5.xxx.se",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
